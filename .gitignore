@@ -1,0 +1,12 @@
+# APKs belong in approved GitHub Release assets, not ordinary Git history.
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.clixml
+*.log
+.env*
+Thumbs.db
+.DS_Store

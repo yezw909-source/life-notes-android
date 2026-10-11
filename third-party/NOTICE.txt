@@ -1,0 +1,60 @@
+Life Notes / 人生随记 — third-party distribution notices
+
+These notices apply only to third-party libraries, not to the Life Notes
+application source, brand, or artwork. The application source is not public.
+
+AndroidX / Jetpack Compose / Room / SQLite / DataStore / Media3 / ExifInterface
+Copyright The Android Open Source Project and contributors.
+Apache License 2.0. See Apache.txt and artifact-notices.txt.
+
+Kotlin, kotlinx.coroutines, kotlinx.serialization, JetBrains annotations
+Copyright JetBrains s.r.o. and contributors. Apache License 2.0.
+
+OkHttp and Okio
+Copyright Square, Inc. and contributors. Apache License 2.0.
+
+Guava, failureaccess and listenablefuture; JSpecify
+Copyright Google LLC and contributors. Apache License 2.0.
+
+SQLCipher for Android 4.19.1
+Copyright (c) 2008-2023, ZETETIC LLC. BSD-style 3-clause license.
+SQLCipher core: Copyright (c) 2025, ZETETIC LLC. BSD-style 3-clause license.
+See SQLCipherAndroid.txt and SQLCipherCore.txt. SQLite is public domain.
+The Android Community artifact uses LibTomCrypt, not an OpenSSL build.
+LibTomCrypt: Tom St Denis; public-domain option selected. See LibTomCrypt.txt.
+
+DataStore's shaded Protocol Buffers runtime
+Copyright 2008 Google Inc. BSD-3-Clause. See Protobuf.txt and artifact-notices.txt.
+
+Skia-derived graphics path routines
+Copyright (c) 2011 Google Inc. BSD-style license. See Skia.txt.
+Graphics path's Filament-derived math: Copyright Google Inc., Apache License 2.0.
+Statically linked libc++ runtime: LLVM Project, Apache-2.0 WITH LLVM-exception
+and legacy license notices, reproduced in LibCxx.txt.
+
+The runtime inventory is in runtime-components.txt. The unmodified artifacts
+are used under their respective licenses; R8 transforms bytecode for packaging.
+No native third-party source was modified by this release preparation.
+Brand artwork was supplied by the product owner; no third-party font is bundled
+(system SansSerif is used). No GPL/LGPL runtime dependency was identified in
+the resolved runtime inventory. Build tools and test-only libraries are not
+distributed as APK runtime dependencies.
+
+Sources:
+https://www.apache.org/licenses/LICENSE-2.0
+https://github.com/androidx/androidx
+https://github.com/androidx/media
+https://github.com/JetBrains/kotlin
+https://github.com/Kotlin/kotlinx.coroutines
+https://github.com/Kotlin/kotlinx.serialization
+https://github.com/square/okhttp
+https://github.com/square/okio
+https://github.com/google/guava
+https://github.com/jspecify/jspecify
+https://github.com/sqlcipher/sqlcipher-android/tree/v4.19.1
+https://github.com/sqlcipher/sqlcipher/tree/v4.19.0
+https://github.com/sqlcipher/libtomcrypt
+https://github.com/protocolbuffers/protobuf
+https://github.com/google/skia
+https://github.com/google/filament
+https://github.com/llvm/llvm-project/blob/llvmorg-14.0.6/libcxx/LICENSE.TXT

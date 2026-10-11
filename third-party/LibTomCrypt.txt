@@ -1,0 +1,14 @@
+LibTomCrypt is licensed under DUAL licensing terms.
+
+Choose and use the license of your needs.
+
+[LICENSE #1]
+
+LibTomCrypt is public domain.  As should all quality software be.
+
+Tom St Denis
+
+[/LICENSE #1]
+
+Life Notes selects LICENSE #1 (public domain).
+

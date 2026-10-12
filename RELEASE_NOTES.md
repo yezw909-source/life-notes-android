@@ -24,13 +24,13 @@
 
 ## 升级与隐私
 
-旧 Alpha 同签名、旧 code < 2 才可原位升级，先主动备份；禁止通过卸载或清 Vault 解决冲突。Debug 不是可覆盖的同签名版本。安装流程见 [INSTALL](INSTALL.md)，数据与外部 AI 说明见 [PRIVACY](PRIVACY.md)。
+旧 Alpha 同签名、旧 code < 2 才可原位升级，先主动备份；禁止通过卸载或清 Vault 解决冲突。Debug 不是可覆盖的同签名版本。安装流程见 [INSTALL](https://github.com/yezw909-source/life-notes-android/blob/v1.0.0/INSTALL.md)，数据与外部 AI 说明见 [PRIVACY](https://github.com/yezw909-source/life-notes-android/blob/v1.0.0/PRIVACY.md)。
 
 ## 必须保留的限制
 
 产品负责人已确认签名 ARM64 RC1 的最小真机冒烟通过。真实 AI 服务、更广厂商设备、全部通知模式未完整验收；API 37 Debug 模拟器与固定 HTTPS 协议测试不能替代。大文件库滚动/授权目录查询及低内存冷启动 ANR 风险未关闭。PDF、旧 Office、扫描件与图片/音视频 AI 内容理解存在限制；后台录音和横幅提醒受系统与 OEM 设置影响。
 
-详见 [KNOWN_LIMITATIONS](KNOWN_LIMITATIONS.md)。不公布真实凭据、私有测试日志或私人档案，不虚构用户量或远端验收成绩。
+详见 [KNOWN_LIMITATIONS](https://github.com/yezw909-source/life-notes-android/blob/v1.0.0/KNOWN_LIMITATIONS.md)。不公布真实凭据、私有测试日志或私人档案，不虚构用户量或远端验收成绩。
 
 ## 已执行的工程验证
 

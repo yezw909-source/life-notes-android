@@ -1,10 +1,10 @@
-Life Notes 1.0.0 RC1 — local release candidate, not yet published
+Life Notes Android 1.0.0 — publication authorized; asset upload pending
 Application ID: com.localfirst.archive
 Version name: 1.0.0
 Version code: 2
 Minimum / target Android API: 26 / 37
 ABI: arm64-v8a only
-APK: LifeNotes-1.0.0-rc1-arm64.apk
+APK: LifeNotes-1.0.0-arm64.apk
 APK bytes: 5982218 (5.705 MiB)
 APK SHA-256: 2bc07f70ce47966b9e846b2398eb3c67acc069fb38453f8bba6d2ae3971d4c59
 Certificate SHA-256: abb9d24eacbfd770b2b470f5178d95f8e3dc520d0c88c245056bd2ed4a9756b5
@@ -13,4 +13,6 @@ APK Signature Scheme v2 verified; non-debuggable; R8 and resource shrinking enab
 ZIP and packaged native ELF 16 KiB alignment verified (static checks only).
 Debug has a different certificate and cannot be overwritten with this APK.
 Do not uninstall or clear data to work around a signature/upgrade conflict.
-Physical-device ARM64 Release installation and upgrade UAT remain pending.
+Product owner confirmed signed ARM64 RC1 minimum physical-device smoke test passed.
+Final APK bytes are identical to the accepted RC1 APK; only the distribution filename changed.
+Broader device/OEM and real AI Provider acceptance remains incomplete.

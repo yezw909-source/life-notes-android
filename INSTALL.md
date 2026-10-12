@@ -2,9 +2,9 @@
 
 ## 当前分发状态
 
-1.0.0 RC1 尚未公开发布，正式签名 APK 只用于产品所有者真机验收。GitHub Releases 下载地址将在最终批准后公布。不要从未核实的镜像下载。
+Android 1.0.0 已获发布批准，APK 正在进行最后上线检查，尚未上传。请只从 [官方 GitHub Releases](https://github.com/yezw909-source/life-notes-android/releases) 中实际发布的资产下载，不要从未核实的镜像下载。
 
-预期文件：`LifeNotes-1.0.0-rc1-arm64.apk`；Android 8.0 / API 26+，设备需支持 ARM64-v8a；包名 `com.localfirst.archive`，版本 `1.0.0`、versionCode `2`。
+正式分发文件：`LifeNotes-1.0.0-arm64.apk`（与已验收 RC1 字节相同）；Android 8.0 / API 26+，设备需支持 ARM64-v8a；包名 `com.localfirst.archive`，版本 `1.0.0`、versionCode `2`。
 
 SHA-256 见 [待发布说明](RELEASE_NOTES.md)。既有 Alpha Release 签名证书 SHA-256：
 

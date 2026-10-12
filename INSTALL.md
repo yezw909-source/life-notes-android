@@ -2,11 +2,13 @@
 
 ## 当前分发状态
 
-Android 1.0.0 已获发布批准，APK 正在进行最后上线检查，尚未上传。请只从 [官方 GitHub Releases](https://github.com/yezw909-source/life-notes-android/releases) 中实际发布的资产下载，不要从未核实的镜像下载。
+Android 1.0.0 正式分发。请只从 [官方 v1.0.0 Release](https://github.com/yezw909-source/life-notes-android/releases/tag/v1.0.0) 下载，不要从未核实的镜像下载。
+
+[下载 ARM64 APK](https://github.com/yezw909-source/life-notes-android/releases/download/v1.0.0/LifeNotes-1.0.0-arm64.apk) · [下载 SHA-256 校验文件](https://github.com/yezw909-source/life-notes-android/releases/download/v1.0.0/SHA256SUMS.txt)
 
 正式分发文件：`LifeNotes-1.0.0-arm64.apk`（与已验收 RC1 字节相同）；Android 8.0 / API 26+，设备需支持 ARM64-v8a；包名 `com.localfirst.archive`，版本 `1.0.0`、versionCode `2`。
 
-SHA-256 见 [待发布说明](RELEASE_NOTES.md)。既有 Alpha Release 签名证书 SHA-256：
+SHA-256 见 [发布说明](RELEASE_NOTES.md)。既有 Alpha Release 签名证书 SHA-256：
 
 ```text
 abb9d24eacbfd770b2b470f5178d95f8e3dc520d0c88c245056bd2ed4a9756b5

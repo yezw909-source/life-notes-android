@@ -1,6 +1,8 @@
-# GitHub Release v1.0.0 — 待发布说明
+# 人生随记 Android 1.0.0 — 正式发布说明
 
-**待上传，尚未创建 GitHub Release。** 产品负责人已确认签名 RC1 最小真机冒烟通过并批准发布；本说明将随最终公开资产发布，不代替实际下载。
+发布日期：2026-10-12。产品负责人已确认签名 RC1 最小真机冒烟通过并批准发布，正式安装包与该 RC1 字节一致。
+
+[正式 Release](https://github.com/yezw909-source/life-notes-android/releases/tag/v1.0.0) · [下载 ARM64 APK](https://github.com/yezw909-source/life-notes-android/releases/download/v1.0.0/LifeNotes-1.0.0-arm64.apk) · [SHA-256 校验](https://github.com/yezw909-source/life-notes-android/releases/download/v1.0.0/SHA256SUMS.txt)
 
 ## 人生随记 1.0.0
 
@@ -10,7 +12,7 @@
 
 本次仅正式封装既有功能，没有新增业务能力、变更数据表或备份格式。源码仍私有，公开仓库用于产品展示与版本分发。
 
-## 待上传资产
+## 分发资产与系统要求
 
 - `LifeNotes-1.0.0-arm64.apk`：ARM64、R8 优化、非 Debuggable，沿用既有 Alpha 签名。只调整 RC1 文件名，字节和校验值不变。
 - `SHA256SUMS.txt`、`SIGNING.txt`：文件校验与公开证书指纹。
@@ -29,6 +31,12 @@
 产品负责人已确认签名 ARM64 RC1 的最小真机冒烟通过。真实 AI 服务、更广厂商设备、全部通知模式未完整验收；API 37 Debug 模拟器与固定 HTTPS 协议测试不能替代。大文件库滚动/授权目录查询及低内存冷启动 ANR 风险未关闭。PDF、旧 Office、扫描件与图片/音视频 AI 内容理解存在限制；后台录音和横幅提醒受系统与 OEM 设置影响。
 
 详见 [KNOWN_LIMITATIONS](KNOWN_LIMITATIONS.md)。不公布真实凭据、私有测试日志或私人档案，不虚构用户量或远端验收成绩。
+
+## 已执行的工程验证
+
+同字节 RC1 的全量门禁：JVM 单元测试430/430，API37模拟器全量Instrumentation160/160；Debug/签名Release构建、Lint/Release Lint、AndroidTest编译通过。Lint无错误，Debug12项/Release14项警告保留。固定HTTPS协议测试覆盖授权边界、多模型上下文与异常处理，不能据此声称真实服务商联调通过。
+
+本次分发不重建安装包，不改变业务代码、数据结构或备份格式。最小真机通过是产品负责人确认，不是开发代理自行完成的实体设备测试，完整UAT仍用于后续扩展验收。
 
 ## 发布约束
 

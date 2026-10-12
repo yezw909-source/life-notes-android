@@ -10,7 +10,7 @@
 
 本产品由个人独立开发。本仓库仅用于产品展示、使用说明与版本分发，**不提供应用源代码，也不代表产品已开源**。完整源码与内部开发历史另行私有保存。
 
-> 当前状态：Android 1.0.0 已获产品负责人发布批准，正在完成最后上线检查。同字节 ARM64 签名 RC1 的最小真机冒烟已由产品负责人确认通过；更广的设备兼容性和真实 AI 服务仍未完整验收。APK 尚未上传，请以 [官方 Releases](https://github.com/yezw909-source/life-notes-android/releases) 实际发布的资产为准。
+> 当前版本：Android 1.0.0。前往 [v1.0.0 正式 Release](https://github.com/yezw909-source/life-notes-android/releases/tag/v1.0.0) 下载 ARM64 签名 APK。同字节 RC1 的最小真机冒烟已由产品负责人确认通过；更广的设备兼容性和真实 AI 服务仍未完整验收。
 
 ## 你可以做什么
 
@@ -51,6 +51,8 @@ AI 网络适配与本地档案权限网关分离。会话历史本地持久化�
 
 分发目标为 Android 8.0（API 26）及以上 ARM64 签名 APK。其他 Android 版本/OEM 的实际验证范围见已知限制。
 
-[安装说明](INSTALL.md) · [更新日志](CHANGELOG.md) · [待发布说明](RELEASE_NOTES.md) · [真机验收](UAT.md)
+[下载 APK](https://github.com/yezw909-source/life-notes-android/releases/download/v1.0.0/LifeNotes-1.0.0-arm64.apk) · [安装说明](INSTALL.md) · [更新日志](CHANGELOG.md) · [发布说明](RELEASE_NOTES.md) · [真机验收](UAT.md)
+
+APK SHA-256：`2bc07f70ce47966b9e846b2398eb3c67acc069fb38453f8bba6d2ae3971d4c59`。请核对 [校验文件](SHA256SUMS.txt) 与 [签名信息](SIGNING.txt)；同签名旧 Alpha 可原位升级，遇到冲突不要卸载或清除数据。
 
 后续优先收口兼容性、真实 AI 服务验证和大文件库性能；更新计划不表示相关问题已解决或承诺交付日期。问题反馈时请勿附 API Key、备份密码或私人档案。

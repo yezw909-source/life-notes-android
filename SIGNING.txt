@@ -1,4 +1,4 @@
-Life Notes Android 1.0.0 — publication authorized; asset upload pending
+Life Notes Android 1.0.0 — signed ARM64 distribution
 Application ID: com.localfirst.archive
 Version name: 1.0.0
 Version code: 2

@@ -4,6 +4,7 @@
 
 | 组件 | 本版本依赖 | 许可证 |
 | --- | --- | --- |
+| Bouncy Castle | bcprov-jdk18on 1.86 | Bouncy Castle MIT-style |
 | Kotlin | 2.4.20 | Apache-2.0 |
 | Jetpack Compose | BOM 2026.09.00（实际 UI 1.12.1 / Material3 1.4.0） | Apache-2.0 |
 | AndroidX Core / Activity / Lifecycle / Navigation | 1.18.0 / 1.13.0 / 2.11.0 / 2.10.2 | Apache-2.0 |

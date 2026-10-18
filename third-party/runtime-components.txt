@@ -1,5 +1,5 @@
 Resolved Release runtime artifacts (including duplicate-coordinate artifact hashes).
-Test libraries and build tools are excluded. POM Apache-2.0 except SQLCipher
+Test libraries and build tools are excluded. Bouncy Castle has its own MIT-style license (BouncyCastle.txt). POM Apache-2.0 except SQLCipher
 (BSD-style) and shaded protobuf (BSD-3-Clause). Guava inherits Apache-2.0.
 
 androidx.activity:activity-compose:1.13.0 | artifact SHA256 2B5DA3033D4924E833868E140C3EDFC0C03208710B6B9FB2C9D9A47560BA55FA
@@ -102,3 +102,5 @@ org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.11.0 | artifact SHA256 56
 org.jetbrains:annotations:23.0.0 | artifact SHA256 7B0F19724082CBFCBC66E5ABEA2B9BC92CF08A1EA11E191933ED43801EB3CD05
 org.jspecify:jspecify:1.0.0 | artifact SHA256 1FAD6E6BE7557781E4D33729D49AE1CDC8FDDA6FE477BB0CC68CE351EAFDFBAB
 
+
+org.bouncycastle:bcprov-jdk18on:1.86 | artifact SHA256 2AF190B300CBB0B35E248CCF5F4A06B6072030AEB3DA7A98EC73ABE5B4CB371F | BouncyCastle.txt

@@ -58,3 +58,7 @@ https://github.com/protocolbuffers/protobuf
 https://github.com/google/skia
 https://github.com/google/filament
 https://github.com/llvm/llvm-project/blob/llvmorg-14.0.6/libcxx/LICENSE.TXT
+
+Bouncy Castle bcprov-jdk18on 1.86
+Copyright (c) 2000-2023 The Legion of the Bouncy Castle Inc.
+MIT-style Bouncy Castle license; see BouncyCastle.txt. Lightweight GCM only; no provider registration.

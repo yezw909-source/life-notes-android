@@ -1,3 +1,6 @@
 *.png binary
 *.md text eol=lf
 *.txt text eol=lf
+
+# Preserve the upstream license text verbatim.
+third-party/*.txt whitespace=-blank-at-eol

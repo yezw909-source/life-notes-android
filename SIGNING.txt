@@ -1,3 +1,5 @@
+Historical v1.0.0 distribution signing information. V1.4 retains this certificate identity but has not passed real-device UAT or been published.
+
 Life Notes Android 1.0.0 — signed ARM64 distribution
 Application ID: com.localfirst.archive
 Version name: 1.0.0
